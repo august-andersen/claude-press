@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "claude-press"
+version = "0.1.0"
+description = "Convert Markdown files into beautifully typeset PDFs with a clean, academic serif style."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.9"
+dependencies = [
+    "weasyprint>=60.0",
+    "markdown>=3.5",
+    "pygments>=2.17",
+]
+
+[project.scripts]
+claude-press = "claude_press.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/claude_press"]
