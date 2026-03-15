@@ -30,19 +30,6 @@ claude-press notes.md
 claude-press lecture.md -o formatted-lecture.pdf
 ```
 
-## Supported Features
-
-- **Headings** (H1–H6) with clean typographic hierarchy
-- **Bold** and *italic* text
-- Fenced code blocks with syntax highlighting (via Pygments)
-- Inline `code` references
-- Tables with minimal styling
-- LaTeX math — inline ($...$) and display ($$...$$)
-- Horizontal rules
-- Blockquotes
-- Images (embedded, centered)
-- Bulleted and numbered lists
-
 ## Dependencies
 
 - [WeasyPrint](https://weasyprint.org/) — HTML/CSS to PDF
