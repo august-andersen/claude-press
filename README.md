@@ -4,9 +4,19 @@ Convert markdown files into typeset PDFs with Claude research output formatting.
 
 ## Installation
 
+**Recommended** (installs globally without a virtual environment):
+
+```bash
+brew install pipx && pipx ensurepath   # one-time setup, if you don't have pipx
+pipx install git+https://github.com/august-andersen/claude-press.git
+```
+
+**Alternative** (using pip in a virtual environment):
+
 ```bash
 git clone https://github.com/august-andersen/claude-press.git
 cd claude-press
+python3 -m venv .venv && source .venv/bin/activate
 pip install .
 ```
 
