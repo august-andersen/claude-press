@@ -1,11 +1,11 @@
 # claude-press
 
-Convert Markdown files into beautifully typeset PDFs with a clean, academic serif style.
+Convert markdown files into typeset PDFs with Claude research output formatting.
 
 ## Installation
 
 ```bash
-git clone https://github.com/augustelholm/claude-press.git
+git clone https://github.com/august-andersen/claude-press.git
 cd claude-press
 pip install .
 ```
